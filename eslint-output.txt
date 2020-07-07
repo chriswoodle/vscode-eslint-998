@@ -1,0 +1,62 @@
+Super@WUDOL MINGW64 ~/git/vscode-eslint-998 (master)
+$ yarn eslint src/main.ts --debug
+  eslint:cli CLI args: [ 'src/main.ts', '--debug' ] +0ms
+  eslint:cli Running on files +3ms
+  eslint:config-array-factory Loading JSON config file: C:\Users\Super\git\vscode-eslint-998\package.json +0ms
+  eslint:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998', loose: false } ] +0ms
+  eslint:ignore-pattern   processed: { basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998', patterns: [ '/**/node_modules/*' ] } +2ms
+  eslint:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998', loose: false } ] +1ms
+  eslint:ignore-pattern   processed: { basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998', patterns: [ '/**/node_modules/*' ] } +1ms
+  eslint:file-enumerator Start to iterate files: [ 'src/main.ts' ] +0ms
+  eslint:file-enumerator File: C:\Users\Super\git\vscode-eslint-998\src\main.ts +1ms
+  eslint:cascading-config-array-factory Load config files for C:\Users\Super\git\vscode-eslint-998\src. +0ms
+  eslint:cascading-config-array-factory No cache found: C:\Users\Super\git\vscode-eslint-998\src. +0ms
+  eslint:config-array-factory Config file not found on C:\Users\Super\git\vscode-eslint-998\src +9ms
+  eslint:cascading-config-array-factory No cache found: C:\Users\Super\git\vscode-eslint-998. +2ms
+  eslint:config-array-factory Loading JS config file: C:\Users\Super\git\vscode-eslint-998\.eslintrc.js +1ms
+  eslint:config-array-factory Config file found: C:\Users\Super\git\vscode-eslint-998\.eslintrc.js +6ms
+  eslint:config-array-factory Loading parser "vue-eslint-parser" from C:\Users\Super\git\vscode-eslint-998\.eslintrc.js +1ms
+  eslint:config-array-factory Loaded: vue-eslint-parser@7.1.0 (C:\Users\Super\git\vscode-eslint-998\.yarn\$$virtual\vue-eslint-parser-virtual-1b001cafe5\0\cache\vue-eslint-parser-npm-7.1.0-4ff7530b66-a4d11879c1.zip\node_modu
+les\vue-eslint-parser\index.js) +6ms
+  eslint:config-array-factory Loading plugin "eslint-plugin-vue" from C:\Users\Super\git\vscode-eslint-998\.eslintrc.js +424ms
+  eslint:config-array-factory Loaded: eslint-plugin-vue@7.0.0-alpha.9 (C:\Users\Super\git\vscode-eslint-998\.yarn\$$virtual\eslint-plugin-vue-virtual-4615857757\0\cache\eslint-plugin-vue-npm-7.0.0-alpha.9-7fc8130283-040304b4
+6a.zip\node_modules\eslint-plugin-vue\lib\index.js) +10ms
+  eslint:config-array-factory Plugin C:\Users\Super\git\vscode-eslint-998\.yarn\$$virtual\eslint-plugin-vue-virtual-4615857757\0\cache\eslint-plugin-vue-npm-7.0.0-alpha.9-7fc8130283-040304b46a.zip\node_modules\eslint-plugin-
+vue\lib\index.js loaded in: 1247ms +1s
+  eslint:cascading-config-array-factory Stop traversing because of 'root:true'. +2s
+  eslint:rules Loading rule 'no-console' (remaining=281) +0ms
+  eslint:cascading-config-array-factory Configuration was determined: ConfigArray(3) [ { type: 'config', name: 'DefaultIgnorePattern', filePath: '', criteria: null, env: undefined, globals: undefined, ignorePattern: IgnorePa
+ttern { patterns: [Array], basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998', loose: false }, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedD
+isableDirectives: undefined, root: undefined, rules: undefined, settings: undefined }, { type: 'implicit-processor', name: '.eslintrc.js#processors["vue/.vue"]', filePath: 'C:\\Users\\Super\\git\\vscode-eslint-998\\.eslintrc
+.js', criteria: { includes: [Array], excludes: null, basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998' }, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserO
+ptions: undefined, plugins: undefined, processor: 'vue/.vue', reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined }, { type: 'config', name: '.eslintrc.js', filePath: 'C:\\Users\\
+Super\\git\\vscode-eslint-998\\.eslintrc.js', criteria: null, env: { browser: true }, globals: undefined, ignorePattern: IgnorePattern { patterns: [Array], basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998', loose: false }
+, noInlineConfig: undefined, parser: { error: null, filePath: 'C:\\Users\\Super\\git\\vscode-eslint-998\\.yarn\\$$virtual\\vue-eslint-parser-virtual-1b001cafe5\\0\\cache\\vue-eslint-parser-npm-7.1.0-4ff7530b66-a4d11879c1.zip
+\\node_modules\\vue-eslint-parser\\index.js', id: 'vue-eslint-parser', importerName: '.eslintrc.js', importerPath: 'C:\\Users\\Super\\git\\vscode-eslint-998\\.eslintrc.js' }, parserOptions: { parser: 'C:\\Users\\Super\\git\\
+vscode-eslint-998\\.yarn\\$$virtual\\@typescript-eslint-parser-virtual-7c3e7e0d78\\0\\cache\\@typescript-eslint-parser-npm-3.6.0-610fe637a4-df547aa5bf.zip\\node_modules\\@typescript-eslint\\parser\\dist\\index.js', project: 
+[Array], sourceType: 'module', extraFileExtensions: [Array], ecmaVersion: 2020 }, plugins: { vue: [Object] }, processor: undefined, reportUnusedDisableDirectives: undefined, root: true, rules: { 'vue/html-indent': [Array], '
+no-console': 'warn' }, settings: undefined } ] on C:\Users\Super\git\vscode-eslint-998\src +10ms
+  eslint:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998', loose: false }, IgnorePattern { patterns: [ '.eslintrc.js', 'webpack.config.js'
+ ], basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998', loose: false } ] +2s
+  eslint:ignore-pattern   processed: { basePath: 'C:\\Users\\Super\\git\\vscode-eslint-998', patterns: [ '/**/node_modules/*', '.eslintrc.js', 'webpack.config.js' ] } +0ms
+  eslint:ignore-pattern Check {
+  filePath: 'C:\\Users\\Super\\git\\vscode-eslint-998\\src\\main.ts',
+  dot: false,
+  relativePath: 'src/main.ts',
+  result: false
+} +1ms
+  eslint:cli-engine Lint C:\Users\Super\git\vscode-eslint-998\src\main.ts +0ms
+  eslint:linter Linting code for C:\Users\Super\git\vscode-eslint-998\src\main.ts (pass 1) +0ms
+  eslint:linter Verify +0ms
+  eslint:linter With ConfigArray: C:\Users\Super\git\vscode-eslint-998\src\main.ts +1ms
+  eslint:linter Generating fixed text for C:\Users\Super\git\vscode-eslint-998\src\main.ts (pass 1) +1s
+  eslint:source-code-fixer Applying fixes +0ms
+  eslint:source-code-fixer shouldFix parameter was false, not attempting fixes +0ms
+  eslint:file-enumerator Complete iterating files: ["src/main.ts"] +3s
+  eslint:cli-engine Linting complete in: 3137ms +1s
+
+C:\Users\Super\git\vscode-eslint-998\src\main.ts
+  6:1  warning  Unexpected console statement  no-console
+
+✖ 1 problem (0 errors, 1 warning)
+

@@ -23,6 +23,8 @@ yarn eslint src/app.vue
 yarn eslint src/main.ts
 ```
 
+Output: https://github.com/chriswoodle/vscode-eslint-998/blob/master/eslint-output.txt
+
 
 ### No linting for .ts files
 ![Image 1](https://raw.githubusercontent.com/chriswoodle/vscode-eslint-998/master/ts-file-not-linted.png)

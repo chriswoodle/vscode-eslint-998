@@ -1,0 +1,7 @@
+{
+    "eslint.nodePath": ".yarn/sdks",
+    "eslint.debug": true,
+    "eslint.trace.server": "verbose",
+    "typescript.tsdk": ".yarn/sdks/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+}
